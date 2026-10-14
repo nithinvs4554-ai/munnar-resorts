@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /munnar-resorts/404.html
 
 Sitemap: https://nithinvs4554-ai.github.io/munnar-resorts/sitemap.xml

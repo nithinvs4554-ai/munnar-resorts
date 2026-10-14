@@ -38,13 +38,15 @@
   const configuredLocation = typeof config.location === "string" ? config.location.trim() : "";
   const mapQuery = verifiedAddress ? fullAddress : configuredLocation;
   const canonicalBase = typeof config.canonicalBaseUrl === "string"
-    ? config.canonicalBaseUrl.trim().replace(/\/+$/, "")
+    ? config.canonicalBaseUrl.trim()
     : "";
   let canonicalUrl = "";
   try {
     const parsedBase = new URL(canonicalBase);
     if (parsedBase.protocol === "https:" && parsedBase.hostname !== "example.com" && !parsedBase.username && !parsedBase.password) {
-      canonicalUrl = new URL(currentPage === "index.html" ? "/" : currentPage, `${parsedBase.origin}/`).href;
+      const basePath = `${parsedBase.pathname.replace(/\/+$/, "")}/`;
+      const siteBaseUrl = `${parsedBase.origin}${basePath}`;
+      canonicalUrl = new URL(currentPage === "index.html" ? "./" : currentPage, siteBaseUrl).href;
     }
   } catch {
     canonicalUrl = "";

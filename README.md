@@ -7,14 +7,13 @@ A responsive, SEO-friendly HTML/CSS/JavaScript website for Misty Fern, a family-
 - `index.html` — home page, sample room cards, location and enquiry calls to action
 - `about.html` — property story and nearby attractions
 - `rooms.html` — illustrative room categories and explicitly labelled sample rates
-- `facilities.html` — confirmed facilities presented with original illustrative artwork
+- `facilities.html` — confirmed resort facilities and guest amenities
 - `gallery.html` — category filters and keyboard-accessible image lightbox
 - `contact.html` — validated stay enquiry form and contact/location placeholders
 - `emailjs-config.js` — EmailJS service ID, template ID and public key for enquiries
 - `404.html` — custom not-found page (`noindex,follow`)
 - `styles.css` — shared responsive design, focus states and reduced-motion support
 - `images/` — local website photos used by the home, about, contact, facilities and gallery pages
-- `facility-illustrations.svg` — original vector illustrations for the facilities page, not property photographs
 - `config.js` — owner-editable name, contact, location and canonical-domain settings
 - `main.js` — shared header/footer, mobile navigation, gallery and form behaviour
 - `robots.txt`, `sitemap.xml`, `favicon.svg` — technical SEO and site icon
@@ -36,7 +35,7 @@ Open `http://localhost:8000/`. Check every page, mobile navigation, room enquiry
 1. Create an EmailJS service and email template in the EmailJS dashboard. In the template, use these form variables: `{{name}}`, `{{email}}`, `{{phone}}`, `{{guests}}`, `{{check_in}}`, `{{check_out}}`, `{{room_type}}` and `{{message}}`.
 2. Replace `YOUR_EMAILJS_SERVICE_ID`, `YOUR_EMAILJS_TEMPLATE_ID` and `YOUR_EMAILJS_PUBLIC_KEY` in `emailjs-config.js` with the values from the EmailJS dashboard. The public key is intended for browser use; never put a private key or email account password in this file.
 3. Deploy the site over HTTPS, send a test enquiry, and verify it arrives at the configured recipient before promoting the form. Do not show a successful submission unless EmailJS accepts it.
-4. Configure the verified custom domain and HTTPS in the host dashboard. Then add the six public page URLs using that exact domain to `sitemap.xml`, add its absolute sitemap URL to `robots.txt`, and set `canonicalBaseUrl` in `config.js`. The sitemap is intentionally unpopulated until the real domain is known.
+4. The current GitHub Pages sitemap and `canonicalBaseUrl` use `https://nithinvs4554-ai.github.io/munnar-resorts/`. If you switch to a custom domain, update `robots.txt`, `sitemap.xml` and `config.js` to match it.
 5. Edit `config.js` with the property owner's approved name, exact Munnar address, phone, WhatsApp number, email and canonical production domain. `location` is prefilled as `Munnar, Kerala, India`. A canonical link and `Hotel` JSON-LD are only added when a real HTTPS domain and complete verified address are configured. Replace sample room categories, prices and policies with confirmed details.
 6. Add verified social profiles and exact map embed/directions. Replace sample stock imagery with property-owned or appropriately licensed photographs and write accurate alt text.
 7. Validate any generated structured data with Google's Rich Results Test and Schema Markup Validator; remove fields that cannot be substantiated.
@@ -46,7 +45,7 @@ Open `http://localhost:8000/`. Check every page, mobile navigation, room enquiry
 
 - [ ] Confirm the exact street address and resort map pin in Munnar; the configured location currently refers to Munnar generally.
 - [ ] Confirm the hosting provider serves `404.html` with an HTTP 404 status.
-- [ ] Set `config.js`, `robots.txt` and `sitemap.xml` to the verified public HTTPS domain before launch; the sitemap currently awaits that domain.
+- [ ] Confirm the GitHub Pages site and its `robots.txt`/`sitemap.xml` URLs are publicly accessible; update all absolute URLs if the public domain changes.
 - [ ] Confirm or remove every sample room category, rate and guest capacity.
 - [ ] Replace the general Munnar map search with a verified property pin, embed and route.
 - [ ] Configure the WhatsApp link using the verified country code and phone number.
