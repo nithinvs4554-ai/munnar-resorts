@@ -1,21 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/about</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/rooms</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/facilities</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/gallery</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/contact</loc>
-  </url>
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/</loc>
+<lastmod>2026-10-16T04:36:32+00:00</lastmod>
+<priority>1.0000</priority>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/rooms.html</loc>
+<lastmod>2026-10-16T04:36:32+00:00</lastmod>
+<priority>0.8000</priority>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/contact</loc>
+<lastmod>2026-10-16T04:36:32+00:00</lastmod>
+<priority>0.6400</priority>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/about</loc>
+<lastmod>2026-10-16T04:36:32+00:00</lastmod>
+<priority>0.6400</priority>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/facilities</loc>
+<lastmod>2026-10-16T04:36:32+00:00</lastmod>
+<priority>0.6400</priority>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/index.html</loc>
+<lastmod>2026-10-16T04:36:32+00:00</lastmod>
+<priority>0.4096</priority>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/gallery</loc>
+<lastmod>2026-10-16T04:36:32+00:00</lastmod>
+<priority>0.3277</priority>
+</url>
 </urlset>
