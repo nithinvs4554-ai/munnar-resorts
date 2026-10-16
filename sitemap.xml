@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nithinvs4554-ai.github.io/munnar-resorts/</loc></url>
-  <url><loc>https://nithinvs4554-ai.github.io/munnar-resorts/about</loc></url>
-  <url><loc>https://nithinvs4554-ai.github.io/munnar-resorts/rooms</loc></url>
-  <url><loc>https://nithinvs4554-ai.github.io/munnar-resorts/facilities</loc></url>
-  <url><loc>https://nithinvs4554-ai.github.io/munnar-resorts/gallery</loc></url>
-  <url><loc>https://nithinvs4554-ai.github.io/munnar-resorts/contact</loc></url>
+  <url>
+    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/</loc>
+  </url>
+  <url>
+    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/about</loc>
+  </url>
+  <url>
+    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/contact</loc>
+  </url>
 </urlset>
