@@ -1,29 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/about/loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/facilities</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/rooms</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/gallery</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/contact</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/contact.html?room=Garden%20Room</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/contact.html?room=Forest%20Suite</loc>
-  </url>
-  <url>
-    <loc>https://nithinvs4554-ai.github.io/munnar-resorts/contact.html?room=Family%20Villa</loc>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/</loc>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/about.html</loc>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/rooms.html</loc>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/facilities.html</loc>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/gallery.html</loc>
+</url>
+<url>
+<loc>https://nithinvs4554-ai.github.io/munnar-resorts/contact.html</loc>
+</url>
 </urlset>
